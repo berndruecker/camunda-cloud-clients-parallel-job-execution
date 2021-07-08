@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "zeebe-node": "^1.4.0"
+  }
+}
