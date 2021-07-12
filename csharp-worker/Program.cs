@@ -61,6 +61,14 @@ namespace io.berndruecker.experiments
             await jobClient.NewCompleteJobCommand(activatedJob).Send();
             counter.inc();
         }
+        private static async void NonBlockingAwaitJobHandler(IJobClient jobClient, IJob activatedJob)
+        {
+            Log.LogInformation("Invoke REST call...");
+            var response = await httpClient.GetAsync("/");
+            Log.LogInformation("...finished. Complete Job...");
+            var result = await jobClient.NewCompleteJobCommand(activatedJob).Send();
+            counter.inc();
+        }
         private static void NonBlockingJobHandler(IJobClient jobClient, IJob activatedJob)
         {
             Log.LogInformation("Invoke REST call...");

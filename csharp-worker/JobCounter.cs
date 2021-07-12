@@ -16,8 +16,8 @@ class JobCounter {
     
     public void inc() {
         init();
-        Interlocked.Increment(ref count);        
-        Log.LogInformation("...completed (" + count + "). " + getThroughputInfoFor(count));
+        long currentCount = Interlocked.Increment(ref count);        
+        Log.LogInformation("...completed (" + currentCount + "). " + getThroughputInfoFor(currentCount));
     }
 
     private String getThroughputInfoFor(long currentCount) {
