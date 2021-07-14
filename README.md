@@ -10,7 +10,7 @@ However, you might need to do better and process jobs in parallel and utilize th
 
 # Background reading
 
-This blog post explains this in detail: ***[https://blog.bernd-ruecker.com/writing-good-workers-for-camunda-cloud-61d322cad862](Writing Good Workers For Camunda Cloud)**
+The code in this repository was developed while writing this blog post: **[Writing Good Workers For Camunda Cloud](https://blog.bernd-ruecker.com/writing-good-workers-for-camunda-cloud-61d322cad862)**
 
 # What you find here: Sample code and results
 
