@@ -14,6 +14,10 @@ However, you might need to do better and process jobs in parallel and utilize th
 
 The code in this repository was developed while writing this blog post: **[Writing Good Workers For Camunda Cloud](https://blog.bernd-ruecker.com/writing-good-workers-for-camunda-cloud-61d322cad862)**
 
+# Walk through recording
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=ZHKz9l5yG3Q" target="_blank"><img src="http://img.youtube.com/vi/ZHKz9l5yG3Q/0.jpg" alt="Walkthrough" width="240" height="180" border="10" /></a>
+
 # What you find here: Sample code and results
 
 Now this repository contains
