@@ -1,4 +1,4 @@
-module github.com/sijoma/camunda-cloud-clients-parallel-job-execution
+module github.com/berndruecker/camunda-cloud-clients-parallel-job-execution
 
 go 1.16
 
