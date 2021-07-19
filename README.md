@@ -29,5 +29,6 @@ Now this repository contains
 * [Java](java-worker/)
 * [NodeJs](nodejs-worker/)
 * [C#](csharp-worker/)
+* [Go](go-worker/)
 
 #3: [Log statements](results/) from my experiments where you can see how workers behave without running them.
